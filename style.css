@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    margin: 0;
+}
+.screen {
+    display: flex;
+    height: 100vh;
+}
+.leftside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside img {
+    max-width: 700px;
+    height: auto;
+}
+.rightside {
+    width: 400px;
+    padding: 70px;
+    background-color: rgb(193, 164, 246);
+}
+.rightside label {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.rightside input {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 14px;
+    outline: 0;
+}
+.error {
+    font-size: 11px;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
